@@ -1,0 +1,287 @@
+body{
+    background-image: url("horizontal bookshelf+books+new+spider+taller.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    font-family : Cormorant Upright;
+}
+@media (max-width: 640px){
+    body{
+        background-size: cover;
+        background-image: url("vertical bookshelf+books+spider+taller.png");
+        /* background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center; */
+    
+    }  
+    body,
+    html {
+    height: 100%;
+    }
+
+    .container
+    {
+        height: 100%;
+        /* background-image:url("vertical bookshelf+books.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center; */
+    }
+    .firstrow{
+        height: 17%;
+    }
+    .firstcol{
+        height:100%;
+    }
+    .secondrow{
+        height: 52.5%;
+    }
+    .secondrxforthr{
+        height: 25%;   
+    }
+    .mainimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        max-width: 50%; 
+    }
+    .h4-text {
+        /* margin-left: -50px; */
+        text-align: center;
+        /*size: 5px;*/
+    }
+
+    .p-text {
+        /* margin-left: 660px; */
+        text-align: center;
+    }
+    .audio-display{
+        height: 78%;
+        border-radius: 10px;
+        background-color: #375a32bd;
+    }
+    .audio{
+        width: 80%;
+        height: 30px;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    .audio-text{
+        margin-top: 4%;
+        margin-left: 25.5%;
+        display: inline-block;
+        font-size: large;
+        color: rgb(16, 16, 16);
+        
+    }
+    .comment-display{
+        height: 2%;
+        border-radius: 10px;
+        background-color: #375a32bd;
+    }
+    .stars {
+        /* margin-left: -10%; */
+        margin-top: -3%;
+        margin-right: 14%;
+        
+    }
+      
+      
+    .center .stars {
+        /* height: 150px; */
+        /* width: 500px; */
+        text-align: center;
+    } 
+      
+      
+    .stars input{
+        display: none;
+    }
+      
+      
+    .stars label{
+        float: right;
+        font-size: 8vw;
+        color: lightgrey;
+        margin: 0 5px;
+        text-shadow: 1px 1px #bbbbbb;
+    }
+      
+      
+    .stars label:before {
+        content: '★';
+        /* content: '*';  */
+        
+    }
+      
+      
+    .stars input:checked ~ label{
+        color: gold;
+        text-shadow: 1px 1px #c60;
+    }
+      
+      
+    .stars:not(:checked) > label:hover{
+        color: gold;
+    }
+      
+      
+    .stars:not(:checked) > label:hover,
+    .stars:not(:checked) > label:hover ~ lable{
+        color: gold;
+    }
+      
+      
+    .stars input:checked > label:hover,
+    .stars input:checked > label:hover ~ lable{
+        color: gold;
+        text-shadow: 1px 1px goldenrod;
+    }
+      
+      
+      
+      
+}
+
+
+@media (min-width: 641px){
+    .body{
+        background-image: url("horizontal bookshelf+books+new+spider+taller.png");
+        background-repeat:no-repeat;
+        background-size: contain;
+        background-position:center;
+        background-size: cover;
+
+    
+    }  
+    body,
+    html {
+    height: 100%;
+    
+    }
+
+    .container
+    {
+        height: 100%;
+        /* background-image:url("vertical bookshelf+books.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center; */
+    }
+    .firstrow{
+        height: 33%;
+    }
+    .firstcol{
+        height:100%;
+    }
+    .secondrow{
+        height: 50%;
+    }
+    .secondrxthirdr{
+        height: 30%;
+    }
+    .secondrxforthr{
+        height: 40%;
+        
+        
+    }
+    .mainimage{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        max-width: 50%; 
+    }
+    .h4-text {
+        /* margin-left: -50px; */
+        text-align: center;
+        font-size: 250%;
+    }
+
+    .p-text {
+        /* margin-left: 660px; */
+        text-align: center;
+        font-size: 150%;
+    }
+    .secondrxthirdr .p-text{
+        font-size: medium;
+    }
+    .audio-display{
+        height: 80%;
+        border-radius: 10px;
+        background-color: #375a32bd;
+    }
+    .audio{
+        width: 80%;
+        height: 30px;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    .audio-text{
+        margin-top: 1%;
+        margin-left: 38%;
+        display: inline-block;
+        font-size: x-large;
+        color: rgb(16, 16, 16);
+        
+    }
+    .stars {
+        /* margin-left: -10%; */
+        margin-top: -2%;
+        margin-right: 32%;
+    }
+      
+      
+    .center .stars {
+        /* height: 150px; */
+        /* width: 500px; */
+        text-align: center;
+    } 
+      
+      
+    .stars input{
+        display: none;
+    }
+      
+      
+    .stars label{
+        float: right;
+        font-size: 4vw;
+        color: lightgrey;
+        margin: 0 5px;
+        text-shadow: 1px 1px #bbbbbb;
+    }
+      
+      
+    .stars label:before {
+        content: '★';
+        /* content: '*';  */
+        
+    }
+      
+      
+    .stars input:checked ~ label{
+        color: gold;
+        text-shadow: 1px 1px #c60;
+    }
+      
+      
+    .stars:not(:checked) > label:hover{
+        color: gold;
+    }
+      
+      
+    .stars:not(:checked) > label:hover,
+    .stars:not(:checked) > label:hover ~ lable{
+        color: gold;
+    }
+      
+      
+    .stars input:checked > label:hover,
+    .stars input:checked > label:hover ~ lable{
+        color: gold;
+        text-shadow: 1px 1px goldenrod;
+    }   
+}
+  
